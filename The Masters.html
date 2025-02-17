@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Foot Care Website</title>
+  <title>Food Care Website</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -84,7 +84,7 @@
     .upload-section button:hover {
       background-color: #555;
     }
-    .login-form, .foot-form, .event-form {
+    .login-form, .food-form, .event-form {
       max-width: 400px;
       margin: 0 auto;
       padding: 20px;
@@ -92,7 +92,7 @@
       border-radius: 10px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
-    .login-form input, .foot-form input, .foot-form select, .event-form input, .event-form select {
+    .login-form input, .food-form input, .food-form select, .event-form input, .event-form select {
       width: 100%;
       padding: 10px;
       margin: 10px 0;
@@ -100,10 +100,10 @@
       border-radius: 5px;
       transition: border-color 0.3s;
     }
-    .login-form input:focus, .foot-form input:focus, .foot-form select:focus, .event-form input:focus, .event-form select:focus {
+    .login-form input:focus, .food-form input:focus, .food-form select:focus, .event-form input:focus, .event-form select:focus {
       border-color: #333;
     }
-    .login-form button, .foot-form button, .event-form button {
+    .login-form button, .food-form button, .event-form button {
       width: 100%;
       padding: 10px;
       background-color: #333;
@@ -166,24 +166,24 @@
 </head>
 <body>
   <header>
-    <h1>Foot Care Website</h1>
+    <h1>Food Care Website</h1>
   </header>
   <nav>
     <a href="#" onclick="showPage('home')">Home</a>
     <a href="#" onclick="showPage('login')">Login</a>
     <a href="#" onclick="showPage('data')">Data</a>
     <a href="#" onclick="showPage('event')">Event</a>
-    <a href="#" onclick="showPage('about')">About</a> <!-- New Navigation Link -->
+    <a href="#" onclick="showPage('about')">About</a> 
   </nav>
   <div class="container">
     <!-- Home Page -->
     <div id="home" class="page active">
-      <h2>Importance of Foot Care</h2>
-      <p>Foot care is essential for maintaining overall health and well-being. Proper foot care can prevent infections, injuries, and other foot-related issues.</p>
+      <h2>Importance of Food Care</h2>
+      <p>Food care is essential for maintaining overall health and well-being. Proper foot care can prevent infections, injuries, and other foot-related issues.</p>
       <div class="upload-section">
-        <h3>Upload Photo Related to Foot Care</h3>
+        <h3>Upload Photo Related to Food Care</h3>
         <img src="https://via.placeholder.com/400x200.png?text=Foot+Care+Image" alt="Foot Care Image">
-        <input type="file" id="footPhoto" accept="image/*">
+        <input type="file" id="foodPhoto" accept="image/*">
         <button onclick="uploadPhoto()">Upload Photo</button>
       </div>
     </div>
@@ -200,8 +200,8 @@
 
     <!-- Data Page -->
     <div id="data" class="page">
-      <h2>Foot Details Form</h2>
-      <div class="foot-form">
+      <h2>Food Details Form</h2>
+      <div class="food-form">
         <input type="text" id="footType" placeholder="Foot Type (e.g., Flat, Arched)" required>
         <input type="text" id="instituteNameData" placeholder="Institute Name" required>
         <input type="text" id="place" placeholder="Place" required>
@@ -254,7 +254,7 @@
     <div id="about" class="page">
       <h2>About This Website</h2>
       <p>This website is designed and developed by <strong>Jashvanthan</strong>.</p>
-      <p>For any inquiries, please contact: <strong>93356789</strong>.</p>
+      
     </div>
   </div>
 
